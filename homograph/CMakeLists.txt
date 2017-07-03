@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( homograph )
+find_package( OpenCV REQUIRED )
+add_executable( homograph homograph.cpp )
+target_link_libraries( homograph ${OpenCV_LIBS} )
