@@ -1,1 +1,0 @@
-/home/justin/Lab/harris_detector/CMakeFiles/harris_detector.dir
