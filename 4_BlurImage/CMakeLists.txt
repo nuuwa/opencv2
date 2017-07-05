@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( 4_BlurImage )
+find_package( OpenCV REQUIRED )
+add_executable( 4_BlurImage 4_BlurImage.cpp )
+target_link_libraries( 4_BlurImage ${OpenCV_LIBS} )
