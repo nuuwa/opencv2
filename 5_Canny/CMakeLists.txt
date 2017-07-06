@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( 5_Canny )
+find_package( OpenCV REQUIRED )
+add_executable( 5_Canny 5_Canny.cpp )
+target_link_libraries( 5_Canny ${OpenCV_LIBS} )
