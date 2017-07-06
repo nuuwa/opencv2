@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( 12_SupportVectorMachines )
+find_package( OpenCV REQUIRED )
+add_executable( 12_SupportVectorMachines 12_SupportVectorMachines.cpp )
+target_link_libraries( 12_SupportVectorMachines ${OpenCV_LIBS} )
