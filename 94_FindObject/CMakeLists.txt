@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( 94_FindObject )
+find_package( OpenCV REQUIRED )
+add_executable( 94_FindObject 94_FindObject.cpp )
+target_link_libraries( 94_FindObject ${OpenCV_LIBS} )

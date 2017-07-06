@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( 8_CamShiftDemo )
+find_package( OpenCV REQUIRED )
+add_executable( 8_CamShiftDemo 8_CamShiftDemo.cpp )
+target_link_libraries( 8_CamShiftDemo ${OpenCV_LIBS} )
